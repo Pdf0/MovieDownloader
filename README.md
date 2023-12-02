@@ -13,7 +13,7 @@ Movie Downloader is a Python script that allows you to search for movies using t
 2. Create and activate a virtual environment (optional but recommended):
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # Unix/Linux
+   source venv/bin/activate 
    ```
 
 3. Install the required packages:
@@ -33,6 +33,7 @@ Movie Downloader is a Python script that allows you to search for movies using t
    Follow the on-screen prompts to choose a movie and add its torrent to qBittorrent.
 
 5. Configuration
+
    Before running the script, make sure to update the following variables in the script:
 
    ```python
@@ -40,6 +41,8 @@ Movie Downloader is a Python script that allows you to search for movies using t
    Web_UI_password = "your_qBittorrent_Web_UI_password"
    Download_path = "path/to/destination/directory"
    ```
-6. Dependencies
+7. Dependencies
+
    [requests](https://pypi.org/project/requests/)
+
    [qbittorrentapi](https://pypi.org/project/qbittorrentapi/)
