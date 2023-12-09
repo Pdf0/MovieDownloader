@@ -6,9 +6,9 @@ from pythonopensubtitles.opensubtitles import OpenSubtitles
 from pythonopensubtitles.utils import File
 import os
 
-Web_UI_username = "ifini" # Replace with your qBittorrent Web UI username
-Web_UI_password = "David_1709" # Replace with your qBittorrent Web UI password
-Download_path = "E:\\Media\\Movies" # Replace this with the path to the destination folder
+Web_UI_username = "your_qBittorrent_Web_UI_username" # Replace with your qBittorrent Web UI username
+Web_UI_password = "your_qBittorrent_Web_UI_password" # Replace with your qBittorrent Web UI password
+Download_path = "path/to/destination/directory" # Replace this with the path to the destination folder
 Default_subtitles = "eng" # Replace this with your preferred language for subtitles
 Movie_file = ""
 Movie_folder = ""
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Movie Downloader')
     parser.add_argument('movie_name', type=str, help='Name of the movie to search for')
-    parser.add_argument('--subtitles', type=str, help='Language of subtitles to download')
+    parser.add_argument('--subtitles', type=str, help='Language´s code of subtitles to download (e.g. eng, pt, fre, etc.)')
     args = parser.parse_args()
 
     # Search for movies and get the selected movie ID
