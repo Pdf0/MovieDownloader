@@ -10,8 +10,8 @@ Web_UI_username = "your_qBittorrent_Web_UI_username" # Replace with your qBittor
 Web_UI_password = "your_qBittorrent_Web_UI_password" # Replace with your qBittorrent Web UI password
 Download_path = "path/to/destination/directory" # Replace this with the path to the destination folder
 Default_subtitles = "eng" # Replace this with your preferred language for subtitles
-Movie_file = ""
-Movie_folder = ""
+Movie_file = "" # Movie file name (mp4 or mkv)
+Movie_folder = "" # Movie folder name
 
 def search_movies(movie_name):
     # YTS API endpoint for searching movies
